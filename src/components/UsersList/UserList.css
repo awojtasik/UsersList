@@ -1,0 +1,7 @@
+.UserList {
+  list-style: none;
+  padding: 0;
+  margin: 25px;
+  /* border: 1px solid #efefef; */
+  max-width: 75vh;
+}

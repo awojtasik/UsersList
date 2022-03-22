@@ -1,0 +1,47 @@
+.UsersListSingleElement {
+  display: flex;
+  /* margin: 10px 15px; */
+  /* justify-content: left; */
+  border: 1px solid #efefef;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+.UsersListSingleElement:hover {
+  background-color: #efefef;
+}
+
+.UsersListSingleElement__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.UsersListSingleElement__text p {
+  margin: 0;
+}
+
+.UsersListSingleElement__name {
+  text-transform: capitalize;
+}
+.UsersListSingleElement__email {
+  font-size: 75%;
+  color: rgb(122, 117, 117);
+  /* margin: 0; */
+}
+
+/* .UsersListSingleElement div {
+  text-transform: capitalize;
+} */
+.UsersListSingleElement__photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
+  /* margin-right: 10px; */
+  margin: 5px 10px;
+}
+/* .textTransform {
+  text-transform: capitalize;
+} */
