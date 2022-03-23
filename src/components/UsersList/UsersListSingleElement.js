@@ -4,8 +4,17 @@ import './UsersListSingleElement.css';
 
 export const UsersListSingleElement = (props) => {
   //   console.log(props.user);
+  const personRemovedClicked = () => {
+    props.onRemoveItem(props.user.username);
+    // wywołaj tą metodę w momencie gdy ktoś click
+  };
+
   return (
-    <li key={props.user.username} className="UsersListSingleElement">
+    <li
+      key={props.user.username}
+      className="UsersListSingleElement"
+      onClick={personRemovedClicked}
+    >
       <img
         className="UsersListSingleElement__photo"
         src={`https://raw.githubusercontent.com/pixelastic/fakeusers/master/pictures/${props.user.picture}`}
